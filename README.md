@@ -1,12 +1,12 @@
 # An example of how to create a basic Joomla plugin, like for breadcrumbs:
 
-Create a folder for your plugin in the /plugins directory of your Joomla site. For example, you might create a folder called mybreadcrumbplugin.
+-- Create a folder for your plugin in the /plugins directory of your Joomla site. For example, you might create a folder called mybreadcrumbplugin.
 
-Inside the mybreadcrumbplugin folder, create a PHP file with a name that matches the name of your plugin, plus the .php file extension. For example, you might name the file mybreadcrumbplugin.php.
+-- Inside the mybreadcrumbplugin folder, create a PHP file with a name that matches the name of your plugin, plus the .php file extension. For example, you might name the file mybreadcrumbplugin.php.
 
-In the PHP file, define a class that extends the JPlugin class, and define any methods you want to override. For a breadcrumbs plugin, you might want to override the onAfterRender method, which is called after the main content of the page is rendered.
+-- In the PHP file, define a class that extends the JPlugin class, and define any methods you want to override. For a breadcrumbs plugin, you might want to override the onAfterRender method, which is called after the main content of the page is rendered.
 
-Here's an example code snippet:
+## Here's an example code snippet:
 
 ```xml
 
@@ -21,7 +21,7 @@ class plgSystemMyBreadcrumbPlugin extends JPlugin {
 
 In this example, the onAfterRender method adds a custom script tag to the HTML of the page, which logs a message to the console.
 
-Create an XML file for your plugin in the /plugins directory. The XML file should have the same name as your plugin folder, plus the .xml file extension. For example, you might name the file mybreadcrumbplugin.xml.
+- Create an XML file for your plugin in the /plugins directory. The XML file should have the same name as your plugin folder, plus the .xml file extension. For example, you might name the file mybreadcrumbplugin.xml.
 Here's an example XML file:
 
 ```xml
@@ -37,7 +37,8 @@ Here's an example XML file:
   </files>
 </extension>
 ```
-In this example, the XML file defines the name, author, creation date, version, and description of the plugin, and specifies the PHP file that contains the plugin code.
+- In this example, the XML file defines the name, author, creation date, version, and description of the plugin, and specifies the PHP file that contains the plugin code.
 
 Install and enable your plugin in the Joomla administration interface.
 That's it! Your basic Joomla plugin should now be active and running. You can modify the plugin code and XML file to add more functionality and customize the plugin as needed.
+** by Volkan Sah **
