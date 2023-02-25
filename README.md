@@ -1,10 +1,10 @@
 # An example of how to create a basic Joomla plugin, like for breadcrumbs:
 
--- Create a folder for your plugin in the /plugins directory of your Joomla site. For example, you might create a folder called mybreadcrumbplugin.
+- Create a folder for your plugin in the /plugins directory of your Joomla site. For example, you might create a folder called mybreadcrumbplugin.
 
--- Inside the mybreadcrumbplugin folder, create a PHP file with a name that matches the name of your plugin, plus the .php file extension. For example, you might name the file mybreadcrumbplugin.php.
+- Inside the mybreadcrumbplugin folder, create a PHP file with a name that matches the name of your plugin, plus the .php file extension. For example, you might name the file mybreadcrumbplugin.php.
 
--- In the PHP file, define a class that extends the JPlugin class, and define any methods you want to override. For a breadcrumbs plugin, you might want to override the onAfterRender method, which is called after the main content of the page is rendered.
+- In the PHP file, define a class that extends the JPlugin class, and define any methods you want to override. For a breadcrumbs plugin, you might want to override the onAfterRender method, which is called after the main content of the page is rendered.
 
 ## Here's an example code snippet:
 
