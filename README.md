@@ -17,7 +17,7 @@ class plgSystemMyBreadcrumbPlugin extends JPlugin {
     $doc->addCustomTag('<script>console.log("Hello, breadcrumbs!");</script>');
   }
 }
-
+```
 
 In this example, the onAfterRender method adds a custom script tag to the HTML of the page, which logs a message to the console.
 
