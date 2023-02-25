@@ -42,4 +42,4 @@ Here's an example XML file:
 
 Install and enable your plugin in the Joomla administration interface.
 That's it! Your basic Joomla plugin should now be active and running. You can modify the plugin code and XML file to add more functionality and customize the plugin as needed.
-** by Volkan Sah **
+## by Volkan Sah
