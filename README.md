@@ -1,4 +1,4 @@
-an example of how to create a basic Joomla plugin, like for breadcrumbs:
+# An example of how to create a basic Joomla plugin, like for breadcrumbs:
 
 Create a folder for your plugin in the /plugins directory of your Joomla site. For example, you might create a folder called mybreadcrumbplugin.
 
