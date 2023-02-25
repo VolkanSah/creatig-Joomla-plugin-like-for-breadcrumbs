@@ -20,7 +20,7 @@ class plgSystemMyBreadcrumbPlugin extends JPlugin {
 }
 ```
 
-In this example, the onAfterRender method adds a custom script tag to the HTML of the page, which logs a message to the console.
+### In this example, the onAfterRender method adds a custom script tag to the HTML of the page, which logs a message to the console.
 
 - Create an XML file for your plugin in the /plugins directory. The XML file should have the same name as your plugin folder, plus the .xml file extension. For example, you might name the file mybreadcrumbplugin.xml.
 Here's an example XML file:
@@ -38,7 +38,7 @@ Here's an example XML file:
   </files>
 </extension>
 ```
-- In this example, the XML file defines the name, author, creation date, version, and description of the plugin, and specifies the PHP file that contains the plugin code.
+### In this example, the XML file defines the name, author, creation date, version, and description of the plugin, and specifies the PHP file that contains the plugin code.
 
 Install and enable your plugin in the Joomla administration interface.
 That's it! Your basic Joomla plugin should now be active and running. You can modify the plugin code and XML file to add more functionality and customize the plugin as needed.
