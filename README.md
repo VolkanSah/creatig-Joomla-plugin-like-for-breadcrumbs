@@ -8,20 +8,23 @@ In the PHP file, define a class that extends the JPlugin class, and define any m
 
 Here's an example code snippet:
 
-```
+```xml
+
+
 class plgSystemMyBreadcrumbPlugin extends JPlugin {
   public function onAfterRender() {
     $doc = JFactory::getDocument();
     $doc->addCustomTag('<script>console.log("Hello, breadcrumbs!");</script>');
   }
 }
-´´´
+
+
 In this example, the onAfterRender method adds a custom script tag to the HTML of the page, which logs a message to the console.
 
 Create an XML file for your plugin in the /plugins directory. The XML file should have the same name as your plugin folder, plus the .xml file extension. For example, you might name the file mybreadcrumbplugin.xml.
 Here's an example XML file:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.9" type="plugin" group="system" method="upgrade">
   <name>My Breadcrumb Plugin</name>
@@ -33,7 +36,7 @@ Here's an example XML file:
     <filename plugin="mybreadcrumbplugin">mybreadcrumbplugin.php</filename>
   </files>
 </extension>
-´´´
+```
 In this example, the XML file defines the name, author, creation date, version, and description of the plugin, and specifies the PHP file that contains the plugin code.
 
 Install and enable your plugin in the Joomla administration interface.
